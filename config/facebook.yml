@@ -1,0 +1,5 @@
+--- 
+:client_id: "104540029301"
+:secret_id: "e680b5e242513b7133093cdc9857d30d"
+:oauth_callback_url: "http://localhost:3000/friends/show"
+:oauth_provider: "https://graph.facebook.com"

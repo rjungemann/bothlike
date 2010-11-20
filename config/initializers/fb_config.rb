@@ -1,0 +1,1 @@
+FB_CONFIG = YAML::load(open("#{File.dirname(__FILE__)}/../facebook.yml"))

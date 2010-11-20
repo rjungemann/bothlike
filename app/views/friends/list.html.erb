@@ -1,0 +1,12 @@
+<h1>Pick a friend</h1>
+
+<p>We'll tell you what we think you have in common!</p>
+
+<ul id="friends-list">
+	<% @friends.each do |friend| %>
+		<li>
+			<%= link_to_friend image_tag(friend['picture']), friend['id'] %>
+			<%= link_to_friend friend['name'], friend['id'] %>
+		</li>
+	<% end %>
+</ul>
